@@ -1,0 +1,50 @@
+<div id="contato"> <!-- BEGIN Contact -->
+	<h3>Contact (pt-BR or US)</h3>
+	
+	<div id="log"> <!-- BEGIN Channels -->
+	<ul>
+		<li><strong>Instant Messagers</strong></li>
+		<li><img src="./images/icq.gif">174253802</li>
+		<li><img src="./images/msn.gif">contato@fdavid.com.br</li>
+                <li><a href="http://www.facebook.com/fdav1d"><img src="./images/facebook.png">fDav1d</li></a>
+
+		<li><strong>Phone</strong> </li>
+		<li><img src="./images/skype.gif"><lable title="Mon/Fri 8h00 as 18h00"> fdavid.skype </label></li>
+                <li><img src="./images/skype.gif"><lable title="Mon/Fri 8h00 as 18h00"> +55 16 9 9722 0946 </label></li>	
+                <li><strong>e-mail</strong></li>
+		<li><a href="mailto:contato@fdavid.com.br">contato@fdavid.com.br</a></li>
+	</ul>
+	</div> <!-- END Channels -->
+
+	<p>Complete the form or use others channels available.</p>
+
+	<form method="POST" id="form_contact" action="sendcontact.php">
+		<label for="name">Name</label>
+		<input id="name" type="text" name="name">
+	
+		<label for="mail">e-mail</label>
+		<input id="mail" type="text" name="email">
+	
+		<label for="assunto">Subject</label>
+		<input id="assunto" type="text" name="subject">
+		
+		<label for="mensagem">Message</label>
+		<textarea id="mensagem" name="bx_message" cols="60" rows="10"></textarea>
+	
+		<input id="send" type="submit" value="Send">
+	</form>
+
+
+</div> <!-- END Contact -->	
+<div class="clear"></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121744935-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121744935-1');
+</script>
+

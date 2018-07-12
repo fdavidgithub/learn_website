@@ -1,0 +1,466 @@
+/*
+==================================
+CSS Desenvolvido por Icaro Pablo
+Web: www.icaropablo.com.br
+Msn: icaropdp@hotmail.com
+E-mail: icaropdp@hotmail.com
+==================================
+*/
+
+/* Golbas Layout*/
+*{
+	border:0;
+	color:black;
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+body{
+	background:#9f9f9f url(/images/bg_page.png) repeat-x;
+}
+/*Header Page*/
+#bodypage{
+	text-align:left;
+	background:#e1e1e1 url(fundo_page.png) repeat-y;
+	border-left:1px #e1e1e1 solid;
+	border-right:1px #e1e1e1 solid;
+	margin:0 auto;
+	width:770px;
+}
+
+#headflash a{
+
+}
+
+#main{
+	font:lighter 12px "Trebuchet MS";
+	padding-top:13px;
+	background:transparent url(./images/main_head.png) no-repeat;
+	width:136px;
+	float:left;
+	margin: 15px 0 0 15px;
+	_margin:15px 0 0 7px;
+}
+
+#main ul{
+	line-height:23px;
+	background:#dadada url(/images/bg_main.png) repeat;
+	width:136px;
+}
+
+.border_top{
+	border-top:1px #888 solid;
+}
+
+#main a{
+	border-top:1px #fff solid;
+	border-bottom:1px #888 solid;
+	display:block;
+	text-indent:10px;
+	height:23px;
+	width:136px;
+}
+
+#main a:hover{
+	background:#c7e3ed url(/images/hover_main.png) repeat;
+	display:block;
+	text-indent:10px;
+	height:23px;
+	width:136px;
+}
+
+#absolute{
+	position:relative;
+}
+
+#lol{
+	padding:15px 5px 5px 0;
+	background:transparent url(/images/bg_main.png) repeat;
+}
+
+/*Content Page*/
+
+#conteudo{
+	width:588px;
+	margin-top:19px;
+	float:right;
+}
+h1,h2,h3,h4,h5,h6{
+	padding-top:5px;
+	text-indent:7px;
+	font:bolder 15px "Georgia", sans-serif;
+	color:#00749f;
+	border-bottom:#ff9000 2px solid;
+}
+
+#conteudo p{
+	margin-top:8px;
+	margin-left:7px;
+	font:12px "Georgia", sans-serif;	
+}
+
+#conteudo img{
+	float:left;
+}
+
+#n_270{
+	background:transparent url(/images/270x.png) repeat-y;
+	float:right;
+	width:270px;
+	_width:265px;
+	margin-bottom:15px;
+	display:block;
+	padding-bottom:5px;
+}
+
+#fd_adsense{
+}
+
+#n_588{
+	display:table;
+	clear:both;
+	background:transparent url(/images/588x.png) repeat-y;
+	width:588px;
+	padding-bottom:5px;
+}
+.colunas{
+	padding-right:4px;
+	float:left;
+	width:180px;
+	border-right:2px #00749f dotted;
+}
+
+#conteudo a{
+	color:#00749f;
+}
+
+.right_block{
+	display:block;
+	text-align:right;
+}
+#conteudo a:hover{
+	text-decoration:underline;
+	color:#00749f;
+}
+#conteudo strong{
+	padding-top:6px;
+	padding-bottom:1px;
+	color:#000;
+	display:block;
+}
+
+/* Footer */
+#footer{
+	line-height:10px;
+	background-color:#8a8a8a;
+	text-align:center;
+	color:#ececec;
+	padding:5px;
+	font:12px "Georgia", sans-serif;	
+}
+#footer a{
+	line-height:10px;
+	color:#ececec;
+	border-bottom:2px transparent dotted;
+}
+
+#footer a:hover{
+	line-height:10px;
+	color:#fff;
+	border-bottom:2px #fff dotted;
+}
+
+/* Contato Style*/
+#contato{
+	font:13px "Georgia", sans-serif;
+	margin-left:5px;
+	margin-right:10px;
+	line-height:18px;
+	
+	display:inline;
+	width:588px;
+	margin-top:19px;
+	float:right;
+}
+
+#contato h3{
+	margin-bottom:8px;
+	text-indent:0;
+	padding-bottom:3px;
+}
+
+#contato p{
+	margin-bottom:10px;
+}
+
+.clear{
+	clear:both;
+	display:block;
+	padding:10px 0;
+}
+
+#contato label{
+	display:block;
+	margin-top:5px;
+}
+
+#contato input{
+	font:12px "sans-serif";
+	padding:1px 1px 1px 3px;
+	width:300px;
+	display:block;
+	border:1px #00749f solid;
+	background-color:#f3f3f3;
+}
+
+#contato input:hover{
+	background-color:#fff;
+}
+#contato input:focus{
+	background-color:#fff;
+	border:1px solid #ff9000;
+}
+#contato textarea{	
+	font:12px "sans-serif";
+	padding:1px 1px 1px 3px;
+	display:block;
+	width:350px;
+	border:1px #00749f solid;
+	background-color:#f3f3f3;
+}
+#contato textarea:hover{
+	background-color:#fff;
+}
+#contato textarea:focus{
+	background-color:#fff;
+	border:1px solid #ff9000;
+}
+#contato #send{
+	width:100px;
+	margin-top:5px;
+	border:1px #00749f solid;
+	background:transparent url(/images/fundo_botao.png) repeat;
+}
+
+
+
+#contato #send:hover{
+	background:transparent url(/images/fundo_botao2.png) repeat;
+}
+#contato #send:focus{
+	background:transparent url(/images/fundo_botao2.png) repeat;
+}
+
+
+/* EXTRAS*/
+
+#horizontal{
+	font:12px "Georgia", sans-serif;	
+	margin-top:25px;
+	padding-left:30px;
+	height:18px;
+	background-color:#dedede;
+	clear:both;
+}
+#horizontal ul{
+	margin:0 auto;
+}
+#horizontal li{
+	padding-left:22px;
+	float:left;
+	width:80px;
+	display:table;
+	background-color:#dedede;
+}
+#horizontal a:hover{
+	color:#8c8c8c;
+	text-decoration:underline;
+}
+#horizontal a{
+	font:12px "Georgia", sans-serif;	
+}
+
+/* Parceiros*/
+form{
+	font:13px "Georgia", sans-serif;	
+}
+
+.login{
+	font:12px "sans-serif";
+	padding:1px 1px 1px 3px;
+	width:100px;
+	display:block;
+	border:1px #00749f solid;
+	background-color:#f3f3f3;
+}
+.login:hover{
+	background-color:#fff;
+}
+.login:focus{
+	background-color:#fff;
+	border:1px solid #ff9000;
+}
+
+#send{
+	width:100px;
+	margin-top:5px;
+	border:1px #00749f solid;
+	background:#fff url(/images/fundo_botao.jpg) repeat;
+}
+
+#send:hover{
+	background:#fff url(/images/fundo_botao2.jpg) repeat;
+}
+#send:focus{
+	background:#fff url(/images/fundo_botao2.jpg) repeat;
+}
+
+#log{
+	font:12px /18px "sans-serif";
+	display:inline;
+	float:right;
+	background:#ff9000 url(./images/fundo_log.png) no-repeat ;
+	width:180px;
+	height:240px;
+	margin-left:5px;
+
+	padding-left:10px;
+	padding-top:5px;
+}
+
+#log ul{
+	float:left;
+}
+
+#log li{
+	height:23px;
+}
+
+#log img{
+	margin-right:3px;
+}
+
+#log strong{
+	font:bolder 13px "sans-serif", Georgia;
+}
+
+#log p{
+	font:11px "sans-serif", Georgia;
+	margin-right:5px;
+}
+
+.left{
+	color:red;
+	text-align:left;
+}
+
+#log a{
+	color:#f9f9f9;
+}
+#log a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+/*======================
+	Comment
+=======================*/
+.default{
+	height:370px;
+}
+
+table{
+	display:table;
+}
+
+.newHome td{
+	text-align:center;
+	background-color:#FFF;
+	padding:10px 0;
+	width:196px;
+}
+
+.newHome img{
+	width:80px;
+}
+
+.bussiness tr{
+	border-bottom:1px solid #8A8A8A;
+	display:block;
+	padding:5px 0;
+}
+
+.bussiness tr td{
+	font-size:13px;
+	padding:5px;
+	line-height:16px;
+}
+
+.bussiness tr td.cl_one{
+	text-align:center;
+	width:200px;
+}
+
+.bussiness tr td.cl_two{
+	padding:10px;
+}
+
+
+.bussiness a{
+	color:#4A76EF;
+}
+
+.bussiness a:hover{
+	text-decoration:underline;
+}
+
+/*==========================
+	
+============================*/
+.listStudy{
+	background-color:#FFF;
+	padding-bottom:10px ;
+	border-bottom:1px solid #000;
+	margin-bottom:6px;
+}
+
+.listStudy span{
+	margin-right:15px;
+	color:#fff;
+}
+
+.listStudy p{
+	padding:5px 5px;
+	font-size:13px;
+	line-height:19px;
+}
+
+.listStudy a{
+	color:#4A76EF;
+}
+
+.listStudy a:hover{
+	text-decoration:underline;
+	
+}
+
+
+.first_line{
+	background-color:#8A8A8A;
+	padding:4px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

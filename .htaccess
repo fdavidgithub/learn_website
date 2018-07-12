@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fdavid\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fdavid\.com\.br$
+RewriteRule ^erp$ "http\:\/\/www\.fdavid\.com\.br\/mediawiki" [R=301,L]
+
