@@ -1,0 +1,129 @@
+/* Selector Universal
+ * Apply to all elements 
+ */
+* {
+    color: white;
+    background: black;
+    
+    font-size: 100%;
+    font-family: Arial, Verdana;
+   
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    margin: 10px 10px 10px 10px;
+}
+
+/* Selector Tag
+ * Apply for all tags
+ */
+img {
+    background: white; 
+}
+
+a {
+    color: blue;
+    background: white;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+    
+    background: white;
+    text-shadow: 3px 3px 4px gray;
+}
+
+h2 {
+    color: grey;
+    background: white;
+    font-size: 2em;
+    text-indent: 30px;
+}
+
+
+h3 {
+    color: grey;
+    background: white;
+    font-size: 2em;
+}
+
+p {
+    text-indent: 20px;
+    background: white;
+    color: black;
+}
+
+li {
+    background: white;
+}
+
+ul {
+    background: white;
+}
+
+form {
+    background: white;
+}
+
+input {
+    background: white;
+}
+
+/* Selector classes
+ *
+ */
+.header {
+    background: white;
+    border-radius: 50px 20px;
+    height: 300px;
+}
+
+.tools {
+    background: white;
+    border-radius: 50px 20px;
+}
+
+.contact {
+    background: white;
+    border-radius: 50px 20px;
+}
+
+.footer {
+    background: white;
+    border-radius: 50px 20px;
+}
+
+.tools-line{
+    padding:0;
+    clear:both;
+}
+
+.tools-column{    
+    //border: 1px solid #000000;
+    width:29%;      
+    float:left;
+    color: black;
+    background: white;
+}
+
+/* Selector ID
+ *
+ */
+#header {
+       
+}
+
+#header-left {
+    height: 15%;
+    float: left;
+}
+
+#header-right {
+    width: 85%;
+    height: 80px;
+    float: right;
+}
+
