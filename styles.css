@@ -2,34 +2,41 @@
  * Apply to all elements 
  */
 * {
-    color: white;
+    color: black;
     background: black;
     
     font-size: 100%;
-    font-family: Arial, Verdana;
+    font-family: Arial;
    
+    /* This properties can be replaced by only padding */
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-
+    
+    /*Like this*/
     margin: 10px 10px 10px 10px;
 }
 
+
 /* Selector Tag
- * Apply for all tags
+ * 
  */
 img {
     background: white; 
 }
 
+b {
+    background: white;
+}
+
 a {
-    color: blue;
     background: white;
     text-decoration: underline;
 }
 
 h1 {
+    color:white;
     font-size: 3em;
     
     background: white;
@@ -50,17 +57,9 @@ h3 {
     font-size: 2em;
 }
 
+
 p {
     text-indent: 20px;
-    background: white;
-    color: black;
-}
-
-li {
-    background: white;
-}
-
-ul {
     background: white;
 }
 
@@ -75,6 +74,14 @@ input {
 /* Selector classes
  *
  */
+.group_form,message {
+    background: white;
+}
+
+.box-contact {
+    background: white;
+}
+
 .header {
     background: white;
     border-radius: 50px 20px;
@@ -97,15 +104,14 @@ input {
 }
 
 .tools-line{
-    padding:0;
+    padding:0px;
     clear:both;
 }
 
 .tools-column{    
-    //border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     width:29%;      
     float:left;
-    color: black;
     background: white;
 }
 
@@ -125,5 +131,15 @@ input {
     width: 85%;
     height: 80px;
     float: right;
+}
+
+#box-message {
+    width: 60%;
+    float: left;
+}
+
+#channels {
+    width: 30%;
+    float:right;
 }
 
