@@ -26,7 +26,7 @@
 
     <div class="header" id="header-right">
         <p>"Talk is cheap, show me the code." <br>
-        <a target="_blank" href="https://github.com/fdavidgithub/learn_website">Website's technologies: HTML, CSS and Javascript</a></p>
+        <a target="_blank" href="https://github.com/fdavidgithub/learn_website">Technologies in use: HTML, CSS and Javascript</a></p>
     </div>
 
 </div>
@@ -38,36 +38,52 @@
 <script type="text/javascript" src="tools.js"></script>
 
 <div class="contact">
-    <h1 name="contact">You can send your message</h1>
+    <div class="message">
+        <h1 name="contact">You can send your message</h1>
     
-    <div class="contact" id="box-message">
-	    <form method="POST" class="group_form" id="form" action="sendmessage.php">
-            <p>Your name <input required id="name" type="text" name="name"></p>
-            <p>e-mail <input required id="email" type="text" name="email"></p>    	
-		    <p>Message</p>
-            <p><textarea required class="group-form" id="message" name="message" cols=30% rows=10%></textarea></p>
-            <p align=right><input id="send" type="submit" value="Send"></p>
+	    <form method="POST" id="form" action="sendmessage.php">
+		    <label for="name">Name</label> <br>
+		    <input id="name" type="text" name="name"> <br>
+	
+		    <label for="mail">e-mail</label> <br>
+		    <input id="mail" type="text" name="email"> <br>
+	
+		    <label for="mensagem">Message</label> <br>
+		    <textarea id="mensagem" name="bx_message" cols="60" rows="10"></textarea>
+            <br>
+	
+		    <input id="send" type="submit" value="Send">
 	    </form>
     </div>
-
-    <div class="contact" id="channels"> 
-        <p><b>Others Channels</b></p>
-
-        <p title="In memory, it's not online"><img src="./images/icq.png">174253802</p>
-        <p title="Mon/Fri 8h00 at 18h00 - Timezone Sao Paulo/BR"><img src="./images/skype.png">fdavid.skype</p>
-        <p title="Mon/Fri 8h00 at 18h00 - Timezone SaoPaulo/BR"><img src="./images/call.png">+55 16 9 9722 0946</p>
-        <p><img src="./images/email.png"><a href="mailto:contato@fdavid.com.br">contato@fdavid.com.br</a></p>
+        
+    <div class=channels> 
+	    <ul class="list-channels">
+		    <li><strong>Others Channels</strong></li>
+            <li><img src="./images/icq.png"><lable title="In memory, it's not online">174253802</label></li>
+		    <li><img src="./images/skype.png"><lable title="Mon/Fri 8h00 at 18h00 - Timezone Sao Paulo/BR"> fdavid.skype </label></li>
+            <li><img src="./images/call.png"><lable title="Mon/Fri 8h00 at 18h00 - Timezone SaoPaulo/BR">+55 16 9 9722 0946 </label></li>
+            <li><img src="./images/email.png"><a href="mailto:contato@fdavid.com.br">contato@fdavid.com.br</a></li>
+        </ul>
     </div> 
-</div>	
-
-<div class="footer">
-    <a  title="License" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="./images/cc.png"></a>
-    <a  title="Images" target="_blank"  href="http://www.gimp.org/"><img src="./images/gimp.png"></a>
-    <a  title="Editor" target="_blank"  href="http://www.vim.org/"><img src="./images/vim.png"></a>
-    <a  title="Distribution" target="_blank" href="http://www.slackware.com/"><img src="./images/slackware.png"</a>
 </div>
 
-</body>
+<div class="footer">
+    <label title="License">
+        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="./images/cc.png"></a>
+    </label>
+
+    <label title="Images">
+        <a href="http://www.gimp.org/"><img src="./images/gimp.png"></a>
+    </label>
+
+    <label title="Editor">
+        <a href="http://www.vim.org/"><img src="./images/vim.png"></a>
+    </label>
+
+    <label title="Distribution">
+        <a href="http://www.slackware.org/"><img src="./images/slackware.png"></a>
+    </label>
+</div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121744935-1"></script>
@@ -78,5 +94,7 @@
 
   gtag('config', 'UA-121744935-1');
 </script>
+
+</body>
 
 </html>
