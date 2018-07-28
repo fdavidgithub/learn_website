@@ -40,7 +40,11 @@ for(let i=0; i<groups.length; i++) {
   
         let project = document.createElement("div");
         project.setAttribute("class", "tools-column");
-        project.appendChild(node_project);
+        //project.appendChild(node_project);
+        let project_url = document.createElement("a");
+        project_url.setAttribute("href", groups[i].child[j].url);
+        project_url.appendChild(node_project);
+        line.appendChild(project_url);
         line.appendChild(project);
 
         ELEMENT.appendChild(line);

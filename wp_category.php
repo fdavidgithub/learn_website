@@ -7,7 +7,8 @@ $args = array(
     'orderby' => 'name',
     'hide_empty' => false,
     'order' => 'ASC',
-    'parent' => 0 
+    'parent' => 0,
+    'cache_results' => true
 );
 
 $categories = get_categories( $args );
@@ -19,7 +20,7 @@ foreach($categories as $category) {
     $child = array();
 
     foreach( $sub_categories as $sub_category) {
-        array_push($child, array('name' => $sub_category->name));
+        array_push($child, array('name' => $sub_category->name, 'projects' => $sub_category->count, 'url' => get_category_link($sub_category->term_id)));
     }
 
     $group = array('name' => $category->name, 'child' => $child);
